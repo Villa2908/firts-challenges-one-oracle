@@ -31,7 +31,7 @@ function cifrar(palabraCifrar){
     for (letra in fraseCifrar){
         if(fraseCifrar[letra].charCodeAt(0) > 128){
             error = "Su informacion contiene contenido tildes o acentos, por favor intentelo de nuevo";
-            resultado = `<p style="font-size: 2em; width: 50%; color: darkred; text-align: center; font-weight:bold;">${error}</p>`;
+            resultado = `<p class="error">${error}</p>`;
             break;
         }
         if (Object.keys(cifradas).includes(fraseCifrar[letra])){

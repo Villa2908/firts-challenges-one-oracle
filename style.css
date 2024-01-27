@@ -176,6 +176,14 @@
     .boton-copiado:active{
         background-color: darkorange;
     }
+
+    .error{
+        text-align: center;
+        font-size: 1em;
+        width: 100%;
+        color: darkred;
+        font-weight: bold;
+    }
     
 }
 
@@ -313,5 +321,13 @@
     #descifrar:hover, #copiar:hover{
         background-color: darkorange;
         transition: 1s all;
+    }
+
+    .error{
+        font-size: 1.5em;
+        width: 50%;
+        color: darkred;
+        text-align: center;
+        font-weight:bold;
     }
 }
